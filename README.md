@@ -63,7 +63,13 @@ sh inference.sh
 ## Citations
 Please cite our paper if necessary:
 ```
-
+@article{fan2024unified,
+	title={Unified video reconstruction for rolling shutter and global shutter cameras},
+	author={Fan, Bin and Wan, Zhexiong and Shi, Boxin and Xu, Chao and Dai, Yuchao},
+	journal={IEEE Transactions on Image Processing},
+	year={2024},
+	publisher={IEEE}
+}
 ```
 
 ## Statement
