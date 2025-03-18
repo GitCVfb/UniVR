@@ -26,8 +26,8 @@ Furthermore, we adopted the pre-trained optical flow estimation method [GMFlow](
 Meanwhile, the original GS-based video frame interpolation methods, i.e., [SoftSplat](https://github.com/JHLew/SoftSplat-Full), [SuperSloMo](https://github.com/avinashpaliwal/Super-SloMo), and [RIFE](https://github.com/megvii-research/ECCV2022-RIFE), are employed as well. They are extended to be compatible with GS and RS video reconstruction. Notably, we propose three UniVR variants here, i.e., `Uni-SoftSplat`, `Uni-SuperSloMo`, and `Uni-RIFE`, which can be trained and tested separately through their corresponding files.
 
 ## Demo with our pretrained model
-Please **download the pre-trained models** through [Baidu Netdisk](https://pan.baidu.com/s/19EcTXzVoVVk8_JBiffKsWw) (link: https://pan.baidu.com/s/19EcTXzVoVVk8_JBiffKsWw
-Extraction code: 1234) and put them in the `deep_unroll_weights` folder of each UniVR-model.
+Please **download the pre-trained models** through [Baidu Netdisk](https://pan.baidu.com/s/19EcTXzVoVVk8_JBiffKsWw) (Link: https://pan.baidu.com/s/19EcTXzVoVVk8_JBiffKsWw
+Extraction code: 1234) or [Google Drive](https://drive.google.com/file/d/1HJBkGR9P4rNbOqJ-NtPYbsnGxSUkLupp/view?usp=sharing) (Link: https://drive.google.com/file/d/1HJBkGR9P4rNbOqJ-NtPYbsnGxSUkLupp/view?usp=sharing), and put them in the `deep_unroll_weights` folder of each UniVR-model.
 
 One can test our proposed three UniVR methods with the provided rolling shutter images (one set of data for each of the Carla-RS and Fastec-RS datasets here) in the `demo_video` folder.
 
@@ -68,6 +68,9 @@ Please cite our paper if necessary:
 	author={Fan, Bin and Wan, Zhexiong and Shi, Boxin and Xu, Chao and Dai, Yuchao},
 	journal={IEEE Transactions on Image Processing},
 	year={2024},
+        volume={33},
+        number={},
+        pages={6821-6835},
 	publisher={IEEE}
 }
 ```
